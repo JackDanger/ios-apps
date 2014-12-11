@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		610E5A661A37C22B00CF60FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E5A651A37C22B00CF60FD /* AppDelegate.swift */; };
+		610E5A681A37C22B00CF60FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E5A671A37C22B00CF60FD /* ViewController.swift */; };
+		610E5A6B1A37C22B00CF60FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610E5A691A37C22B00CF60FD /* Main.storyboard */; };
+		610E5A6D1A37C22B00CF60FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610E5A6C1A37C22B00CF60FD /* Images.xcassets */; };
+		610E5A701A37C22B00CF60FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 610E5A6E1A37C22B00CF60FD /* LaunchScreen.xib */; };
+		610E5A7C1A37C22B00CF60FD /* RothkoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610E5A7B1A37C22B00CF60FD /* RothkoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		610E5A761A37C22B00CF60FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610E5A581A37C22B00CF60FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 610E5A5F1A37C22B00CF60FD;
+			remoteInfo = Rothko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		610E5A601A37C22B00CF60FD /* 855230.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 855230.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610E5A641A37C22B00CF60FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610E5A651A37C22B00CF60FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		610E5A671A37C22B00CF60FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		610E5A6A1A37C22B00CF60FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		610E5A6C1A37C22B00CF60FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		610E5A6F1A37C22B00CF60FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		610E5A751A37C22B00CF60FD /* RothkoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RothkoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		610E5A7A1A37C22B00CF60FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610E5A7B1A37C22B00CF60FD /* RothkoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RothkoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		610E5A5D1A37C22B00CF60FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610E5A721A37C22B00CF60FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		610E5A571A37C22B00CF60FD = {
+			isa = PBXGroup;
+			children = (
+				610E5A621A37C22B00CF60FD /* Rothko */,
+				610E5A781A37C22B00CF60FD /* RothkoTests */,
+				610E5A611A37C22B00CF60FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		610E5A611A37C22B00CF60FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610E5A601A37C22B00CF60FD /* 855230.app */,
+				610E5A751A37C22B00CF60FD /* RothkoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		610E5A621A37C22B00CF60FD /* Rothko */ = {
+			isa = PBXGroup;
+			children = (
+				610E5A651A37C22B00CF60FD /* AppDelegate.swift */,
+				610E5A671A37C22B00CF60FD /* ViewController.swift */,
+				610E5A691A37C22B00CF60FD /* Main.storyboard */,
+				610E5A6C1A37C22B00CF60FD /* Images.xcassets */,
+				610E5A6E1A37C22B00CF60FD /* LaunchScreen.xib */,
+				610E5A631A37C22B00CF60FD /* Supporting Files */,
+			);
+			path = Rothko;
+			sourceTree = "<group>";
+		};
+		610E5A631A37C22B00CF60FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				610E5A641A37C22B00CF60FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		610E5A781A37C22B00CF60FD /* RothkoTests */ = {
+			isa = PBXGroup;
+			children = (
+				610E5A7B1A37C22B00CF60FD /* RothkoTests.swift */,
+				610E5A791A37C22B00CF60FD /* Supporting Files */,
+			);
+			path = RothkoTests;
+			sourceTree = "<group>";
+		};
+		610E5A791A37C22B00CF60FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				610E5A7A1A37C22B00CF60FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		610E5A5F1A37C22B00CF60FD /* 855230 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610E5A7F1A37C22B00CF60FD /* Build configuration list for PBXNativeTarget "855230" */;
+			buildPhases = (
+				610E5A5C1A37C22B00CF60FD /* Sources */,
+				610E5A5D1A37C22B00CF60FD /* Frameworks */,
+				610E5A5E1A37C22B00CF60FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 855230;
+			productName = Rothko;
+			productReference = 610E5A601A37C22B00CF60FD /* 855230.app */;
+			productType = "com.apple.product-type.application";
+		};
+		610E5A741A37C22B00CF60FD /* RothkoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610E5A821A37C22B00CF60FD /* Build configuration list for PBXNativeTarget "RothkoTests" */;
+			buildPhases = (
+				610E5A711A37C22B00CF60FD /* Sources */,
+				610E5A721A37C22B00CF60FD /* Frameworks */,
+				610E5A731A37C22B00CF60FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				610E5A771A37C22B00CF60FD /* PBXTargetDependency */,
+			);
+			name = RothkoTests;
+			productName = RothkoTests;
+			productReference = 610E5A751A37C22B00CF60FD /* RothkoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		610E5A581A37C22B00CF60FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jack Danger";
+				TargetAttributes = {
+					610E5A5F1A37C22B00CF60FD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					610E5A741A37C22B00CF60FD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 610E5A5F1A37C22B00CF60FD;
+					};
+				};
+			};
+			buildConfigurationList = 610E5A5B1A37C22B00CF60FD /* Build configuration list for PBXProject "Rothko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 610E5A571A37C22B00CF60FD;
+			productRefGroup = 610E5A611A37C22B00CF60FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610E5A5F1A37C22B00CF60FD /* 855230 */,
+				610E5A741A37C22B00CF60FD /* RothkoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		610E5A5E1A37C22B00CF60FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610E5A6B1A37C22B00CF60FD /* Main.storyboard in Resources */,
+				610E5A701A37C22B00CF60FD /* LaunchScreen.xib in Resources */,
+				610E5A6D1A37C22B00CF60FD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610E5A731A37C22B00CF60FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		610E5A5C1A37C22B00CF60FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610E5A681A37C22B00CF60FD /* ViewController.swift in Sources */,
+				610E5A661A37C22B00CF60FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610E5A711A37C22B00CF60FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610E5A7C1A37C22B00CF60FD /* RothkoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		610E5A771A37C22B00CF60FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 610E5A5F1A37C22B00CF60FD /* 855230 */;
+			targetProxy = 610E5A761A37C22B00CF60FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		610E5A691A37C22B00CF60FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610E5A6A1A37C22B00CF60FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		610E5A6E1A37C22B00CF60FD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610E5A6F1A37C22B00CF60FD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		610E5A7D1A37C22B00CF60FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		610E5A7E1A37C22B00CF60FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		610E5A801A37C22B00CF60FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rothko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		610E5A811A37C22B00CF60FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rothko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		610E5A831A37C22B00CF60FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RothkoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rothko.app/Rothko";
+			};
+			name = Debug;
+		};
+		610E5A841A37C22B00CF60FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RothkoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rothko.app/Rothko";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		610E5A5B1A37C22B00CF60FD /* Build configuration list for PBXProject "Rothko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610E5A7D1A37C22B00CF60FD /* Debug */,
+				610E5A7E1A37C22B00CF60FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610E5A7F1A37C22B00CF60FD /* Build configuration list for PBXNativeTarget "855230" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610E5A801A37C22B00CF60FD /* Debug */,
+				610E5A811A37C22B00CF60FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610E5A821A37C22B00CF60FD /* Build configuration list for PBXNativeTarget "RothkoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610E5A831A37C22B00CF60FD /* Debug */,
+				610E5A841A37C22B00CF60FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 610E5A581A37C22B00CF60FD /* Project object */;
+}

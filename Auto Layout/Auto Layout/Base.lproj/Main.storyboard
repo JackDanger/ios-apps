@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Auto_Layout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1top" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ige-PU-B2l">
+                                <rect key="frame" x="8" y="8" width="304" height="41"/>
+                                <color key="backgroundColor" red="0.35033947079460648" green="1" blue="0.32154951297033474" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="qa9-3D-YJl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4bottom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7W-xS-0QY">
+                                <rect key="frame" x="8" y="503" width="304" height="57"/>
+                                <color key="backgroundColor" red="1" green="0.34066907689999998" blue="0.1150619321" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="b9A-5T-0Vv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="3small" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wI3-St-Ixt">
+                                <rect key="frame" x="8" y="475" width="304" height="21"/>
+                                <color key="backgroundColor" red="0.99337635869565222" green="0.75698010730380327" blue="0.049732223325819419" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="6Fw-sz-IGj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="2main" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJa-rF-cNH">
+                                <rect key="frame" x="8" y="57" width="304" height="431"/>
+                                <color key="backgroundColor" red="0.29691352180000002" green="0.32996131280000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c7W-xS-0QY" firstAttribute="top" secondItem="wI3-St-Ixt" secondAttribute="bottom" constant="7" id="Bd1-c8-dZu"/>
+                            <constraint firstItem="ige-PU-B2l" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-8" id="E4t-yS-DBc"/>
+                            <constraint firstItem="NJa-rF-cNH" firstAttribute="trailing" secondItem="wI3-St-Ixt" secondAttribute="trailing" id="JIv-8x-Dd9"/>
+                            <constraint firstItem="ige-PU-B2l" firstAttribute="trailing" secondItem="wI3-St-Ixt" secondAttribute="trailing" id="JdX-BH-qAw"/>
+                            <constraint firstItem="wI3-St-Ixt" firstAttribute="top" secondItem="NJa-rF-cNH" secondAttribute="bottom" constant="-13" id="Jvg-qW-stL"/>
+                            <constraint firstAttribute="centerX" secondItem="c7W-xS-0QY" secondAttribute="centerX" id="Qz5-CB-tzU"/>
+                            <constraint firstItem="NJa-rF-cNH" firstAttribute="leading" secondItem="wI3-St-Ixt" secondAttribute="leading" id="XEs-BO-1Ri"/>
+                            <constraint firstItem="ige-PU-B2l" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="8" id="cxI-4i-4CM"/>
+                            <constraint firstItem="NJa-rF-cNH" firstAttribute="leading" secondItem="ige-PU-B2l" secondAttribute="leading" id="nlR-de-huj"/>
+                            <constraint firstItem="wI3-St-Ixt" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="teN-fb-AC5"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="c7W-xS-0QY" secondAttribute="bottom" constant="8" symbolic="YES" id="wUg-4f-1ZJ"/>
+                            <constraint firstItem="wI3-St-Ixt" firstAttribute="leading" secondItem="c7W-xS-0QY" secondAttribute="leading" id="ypK-sD-gWg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="201" y="305"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

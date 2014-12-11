@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616505781A31426C006EDA72 /* Repeater.m in Sources */ = {isa = PBXBuildFile; fileRef = 616505771A31426C006EDA72 /* Repeater.m */; };
+		61BA1A711A323227007C171C /* BNRUrlGetterLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BA1A701A323227007C171C /* BNRUrlGetterLogger.m */; };
+		61D10A731A30E35100A4C6A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D10A721A30E35100A4C6A0 /* main.m */; };
+		61EFB0DE1A31146200AFCC5C /* BNRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EFB0DD1A31146200AFCC5C /* BNRPerson.m */; };
+		61EFB0E11A3116E000AFCC5C /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EFB0E01A3116E000AFCC5C /* BNRStockHolding.m */; };
+		61EFB0E41A31289900AFCC5C /* Orphan.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EFB0E31A31289900AFCC5C /* Orphan.m */; };
+		61EFB0EA1A312F3300AFCC5C /* BNRStockPortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 61EFB0E91A312F3300AFCC5C /* BNRStockPortfolio.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61D10A6D1A30E35100A4C6A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		616505761A31426C006EDA72 /* Repeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repeater.h; sourceTree = "<group>"; };
+		616505771A31426C006EDA72 /* Repeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repeater.m; sourceTree = "<group>"; };
+		61BA1A6F1A323227007C171C /* BNRUrlGetterLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRUrlGetterLogger.h; sourceTree = "<group>"; };
+		61BA1A701A323227007C171C /* BNRUrlGetterLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRUrlGetterLogger.m; sourceTree = "<group>"; };
+		61D10A6F1A30E35100A4C6A0 /* TimeAfterTime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TimeAfterTime; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D10A721A30E35100A4C6A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61EFB0DC1A31146200AFCC5C /* BNRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPerson.h; sourceTree = "<group>"; };
+		61EFB0DD1A31146200AFCC5C /* BNRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPerson.m; sourceTree = "<group>"; };
+		61EFB0DF1A3116E000AFCC5C /* BNRStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStockHolding.h; sourceTree = "<group>"; };
+		61EFB0E01A3116E000AFCC5C /* BNRStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStockHolding.m; sourceTree = "<group>"; };
+		61EFB0E21A31289900AFCC5C /* Orphan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orphan.h; sourceTree = "<group>"; };
+		61EFB0E31A31289900AFCC5C /* Orphan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Orphan.m; sourceTree = "<group>"; };
+		61EFB0E51A312A5300AFCC5C /* TimeAfterTime-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeAfterTime-Bridging-Header.h"; sourceTree = "<group>"; };
+		61EFB0E81A312F3300AFCC5C /* BNRStockPortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStockPortfolio.h; sourceTree = "<group>"; };
+		61EFB0E91A312F3300AFCC5C /* BNRStockPortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStockPortfolio.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D10A6C1A30E35100A4C6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61D10A661A30E35000A4C6A0 = {
+			isa = PBXGroup;
+			children = (
+				61BA1A6F1A323227007C171C /* BNRUrlGetterLogger.h */,
+				61BA1A701A323227007C171C /* BNRUrlGetterLogger.m */,
+				616505761A31426C006EDA72 /* Repeater.h */,
+				616505771A31426C006EDA72 /* Repeater.m */,
+				61EFB0E21A31289900AFCC5C /* Orphan.h */,
+				61EFB0E31A31289900AFCC5C /* Orphan.m */,
+				61EFB0DC1A31146200AFCC5C /* BNRPerson.h */,
+				61EFB0E81A312F3300AFCC5C /* BNRStockPortfolio.h */,
+				61EFB0E91A312F3300AFCC5C /* BNRStockPortfolio.m */,
+				61EFB0DD1A31146200AFCC5C /* BNRPerson.m */,
+				61EFB0DF1A3116E000AFCC5C /* BNRStockHolding.h */,
+				61EFB0E01A3116E000AFCC5C /* BNRStockHolding.m */,
+				61D10A711A30E35100A4C6A0 /* TimeAfterTime */,
+				61D10A701A30E35100A4C6A0 /* Products */,
+				61EFB0E51A312A5300AFCC5C /* TimeAfterTime-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		61D10A701A30E35100A4C6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D10A6F1A30E35100A4C6A0 /* TimeAfterTime */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D10A711A30E35100A4C6A0 /* TimeAfterTime */ = {
+			isa = PBXGroup;
+			children = (
+				61D10A721A30E35100A4C6A0 /* main.m */,
+			);
+			path = TimeAfterTime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61D10A6E1A30E35100A4C6A0 /* TimeAfterTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D10A761A30E35100A4C6A0 /* Build configuration list for PBXNativeTarget "TimeAfterTime" */;
+			buildPhases = (
+				61D10A6B1A30E35100A4C6A0 /* Sources */,
+				61D10A6C1A30E35100A4C6A0 /* Frameworks */,
+				61D10A6D1A30E35100A4C6A0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeAfterTime;
+			productName = TimeAfterTime;
+			productReference = 61D10A6F1A30E35100A4C6A0 /* TimeAfterTime */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61D10A671A30E35000A4C6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jack Danger";
+				TargetAttributes = {
+					61D10A6E1A30E35100A4C6A0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 61D10A6A1A30E35000A4C6A0 /* Build configuration list for PBXProject "TimeAfterTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61D10A661A30E35000A4C6A0;
+			productRefGroup = 61D10A701A30E35100A4C6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61D10A6E1A30E35100A4C6A0 /* TimeAfterTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61D10A6B1A30E35100A4C6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BA1A711A323227007C171C /* BNRUrlGetterLogger.m in Sources */,
+				61EFB0EA1A312F3300AFCC5C /* BNRStockPortfolio.m in Sources */,
+				61D10A731A30E35100A4C6A0 /* main.m in Sources */,
+				61EFB0DE1A31146200AFCC5C /* BNRPerson.m in Sources */,
+				61EFB0E11A3116E000AFCC5C /* BNRStockHolding.m in Sources */,
+				616505781A31426C006EDA72 /* Repeater.m in Sources */,
+				61EFB0E41A31289900AFCC5C /* Orphan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		61D10A741A30E35100A4C6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		61D10A751A30E35100A4C6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		61D10A771A30E35100A4C6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeAfterTime-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		61D10A781A30E35100A4C6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeAfterTime-Bridging-Header.h";
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61D10A6A1A30E35000A4C6A0 /* Build configuration list for PBXProject "TimeAfterTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D10A741A30E35100A4C6A0 /* Debug */,
+				61D10A751A30E35100A4C6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D10A761A30E35100A4C6A0 /* Build configuration list for PBXNativeTarget "TimeAfterTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D10A771A30E35100A4C6A0 /* Debug */,
+				61D10A781A30E35100A4C6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61D10A671A30E35000A4C6A0 /* Project object */;
+}
